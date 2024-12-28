@@ -64,5 +64,6 @@ fps.stop()
 print("[INFO] Elapsed Time: {:.2f}".format(fps.elapsed()))
 print("[INFO] Approximate FPS: {:.2f}".format(fps.fps()))
 
+#end loop
 cv2.destroyAllWindows()
 vs.stop()
